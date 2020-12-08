@@ -6,7 +6,7 @@ const Body = Matter.Body;
 
 function preload()
 {
-	dustbinImage= loadImage("sprites/dustbingreen.png");
+	dustbinImage= loadImage("dustbingreen.png");
 }
 
 function setup() {
@@ -33,7 +33,7 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background("#81D4FA");
-  text(mouseX + ' '+mouseY, mouseX, mouseY);
+  //text(mouseX + ' '+mouseY, mouseX, mouseY);
   
   	paper.display();
 	ground.display();
